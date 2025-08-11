@@ -1,45 +1,40 @@
 /**
- * @name Translucence
+ * @name Translucence Purple
  * @version 1.0.6.4
- * @description A translucent/frosted glass Discord theme
+ * @description نسخة بنفسجية من ثيم Translucence مع خلفية GIF
  * @author CapnKitten
- *
- * @website http://github.com/CapnKitten
- * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
- * @donate https://paypal.me/capnkitten
- * @invite jzJkA6Z
  */
 
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
 	/* APP ELEMENTS */
-	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
+	--app-bg: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzd1b3loODh4cmZtdTJ0eDlyam9ncTRkeTk1bWx6Yzd4ZXd6MDI0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d7174wd0GwAx4CNi7a/giphy.gif);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px;
 
 	/* ACCENT HSL AND TEXT COLOR SETTINGS */
-	--accent-hue: 156;
+	--accent-hue: 270; /* بنفسجي */
 	--accent-saturation: 77.5%;
-	--accent-lightness: 47.1%;
+	--accent-lightness: 60%;
 	--accent-opacity: 1;
-	--accent-text-color: hsl(0,0%,0%);
+	--accent-text-color: hsl(0,0%,100%);
 
 	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
-	--sidebar-color: hsl(0,0%,0%,0.4);
-	--main-content-color: hsl(0,0%,0%,0.2);
+	--sidebar-color: hsl(270,30%,15%,0.4);
+	--main-content-color: hsl(270,30%,12%,0.2);
 
 	/* MESSAGE SETTINGS */
-	--message-color: hsl(0,0%,0%,0.4);
+	--message-color: hsl(270,30%,15%,0.4);
 	--message-radius: 8px;
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
 
 	/* REPLY HSL COLOR SETTINGS */
-	--reply-hue: 226;
-	--reply-saturation: 77.4%;
-	--reply-lightness: 61.8%;
+	--reply-hue: 270;
+	--reply-saturation: 70%;
+	--reply-lightness: 65%;
 	--reply-opacity: 1;
 
 	/* TEXTAREA SETTINGS */
@@ -50,14 +45,14 @@
 	--textarea-radius: 22px;
 
 	/* CARD SETTINGS */
-	--card-color: hsl(0,0%,0%,0.4);
-	--card-color-hover: hsl(0,0%,0%,0.5);
-	--card-color-select: hsl(0,0%,0%,0.7);
+	--card-color: hsl(270,30%,15%,0.4);
+	--card-color-hover: hsl(270,30%,15%,0.5);
+	--card-color-select: hsl(270,30%,15%,0.7);
 
 	/* BUTTON SETTINGS */
 	--button-height: 32px;
 	--button-padding: 0 16px;
-	--button-action-color: hsl(0,0%,0%);
+	--button-action-color: hsl(270,30%,50%);
 	--button-radius: 16px;
 }
 
@@ -67,21 +62,21 @@
 	--text-secondary: hsl(0,0%,77%);
 
 	/* CHANNEL COLOR SETTINGS */
-	--channels-default: hsl(0,0%,62%);
-	--channel-icon: hsl(0,0%,62%);
+	--channels-default: hsl(270,30%,70%);
+	--channel-icon: hsl(270,30%,70%);
 
 	/* ICON COLOR SETTINGS */
-	--icon-primary: hsl(0,0%,96%);
-	--icon-secondary: hsl(0,0%,84%);
-	--icon-tertiary: hsl(0,0%,71%);
+	--icon-primary: hsl(270,30%,96%);
+	--icon-secondary: hsl(270,30%,84%);
+	--icon-tertiary: hsl(270,30%,71%);
 
 	/* INTERACTIVE COLOR SETTINGS */
-	--interactive-normal: hsl(0,0%,79%);
-	--interactive-hover: hsl(0,0%,91%);
-	--interactive-active: hsl(0,0%,100%);
-	--interactive-muted: hsl(0,0%,43%);
+	--interactive-normal: hsl(270,30%,79%);
+	--interactive-hover: hsl(270,30%,91%);
+	--interactive-active: hsl(270,30%,100%);
+	--interactive-muted: hsl(270,30%,43%);
 
 	/* BACKGROUND MODIFIER SETTINGS */
-	--background-modifier-hover: hsl(0,0%,100%,0.075);
-	--background-modifier-selected: hsl(0,0%,100%,0.125);
+	--background-modifier-hover: hsl(270,30%,100%,0.075);
+	--background-modifier-selected: hsl(270,30%,100%,0.125);
 }
